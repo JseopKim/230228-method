@@ -27,7 +27,7 @@
     function ulMaker(tagName, setAttriName, setAttriValue, parent) {
       const element = document.createElement(tagName);
       element.setAttribute(setAttriName, setAttriValue);
-      root.appendChild(element);
+      parent.appendChild(element);
     }
 
     for(let i = 0; i < 100; i++) {
